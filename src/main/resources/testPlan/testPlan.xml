@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SavillsHK自动化测试用例"  parallel="classes" thread-count="1">
+<test name="冒烟测试" >
+    <classes>
+        <class name="page.LoginPageTest" />
+    </classes>
+</test><!--Test-->
+</suite><!--Suite-->
