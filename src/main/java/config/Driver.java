@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
-    private static ThreadLocal<WebDriver> threadLocal=new ThreadLocal();
+    private static ThreadLocal<WebDriver> threadLocal=new ThreadLocal<WebDriver>();
 
     public static void start(){
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
